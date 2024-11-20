@@ -221,6 +221,18 @@ input:focus{
     cursor: pointer;
 }
 
+.you{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.7rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+    cursor: pointer;
+}
+
 .home-section-container:hover{
     background-color: #ebeaea;
     border-radius: 0.5rem;
