@@ -183,6 +183,7 @@ input:focus{
     justify-content: start;
     align-items: start;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 .first-section-container{
@@ -309,7 +310,7 @@ input:focus{
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .upper-top-section-container{
@@ -387,6 +388,8 @@ input:focus{
     row-gap: 2rem;
     padding: 1rem;
     column-gap: 0.3rem;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .yt-card-container{
