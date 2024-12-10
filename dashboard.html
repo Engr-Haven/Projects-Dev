@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System Dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="container-containing-containers">
+        <div class="general-container">
+            <div class="dashboard-container">
+                <div class="sidebar-container">
+                    <div class="logo-container">
+                        <h1>Organix.</h1>
+                    </div>
+                    
+                    <div class="search-menu-container">
+                        <form class="form-search">
+                            <div class="search-icon-container">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <input type="text" placeholder="Search" name="search">
+                            <div class="command-f-container">
+                                <p>cmd + F</p>
+                            </div>
+                        </form>
+    
+                        <div class="main-menu-container">
+                            <div class="menu-container">
+                                <p>MAIN MENU</p>
+                            </div>
+                            <div class="menu-list-container">
+                                <div class="first-list-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-house-crack"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Home</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-folder-open"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Projects</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-calendar"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Calendar</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-user-plus"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Team Member</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-chart-pie"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Analytics</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-wallet"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Wallet</p>
+                                    </div>
+                                </div>
+                                <div class="focused-list-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-bars-progress"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Tasks</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Mail</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="label-container-listings">
+                        <div class="main-menu-container">
+                            <div class="menu-container">
+                                <p>LABEL</p>
+                            </div>
+                            <div class="menu-list-container">
+                                <div class="first-list-container">
+                                    <div class="container">
+                                        
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Marketing</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="container blue">
+                                        
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Development</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="container orange">
+                                        
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Design</p>
+                                    </div>
+                                </div>
+                                <div class="first-list-container">
+                                    <div class="container purple">
+                                        
+                                    </div>
+                                    <div class="words-container">
+                                        <p>3D Modeling</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="content-general-container">
+                    <div class="top-bar-container">
+                        <div class="task-container">
+                            <h1>Tasks</h1>
+                        </div>
+                        <div class="add-task-profile-notifi-container">
+                            <div class="first-list-container outline-here">
+                                <div class="icons-container">
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+                                <div class="words-container">
+                                    <p>Add Task</p>
+                                </div>
+                            </div>
+                            <div class="notification-container">
+                                <div class="icons-container cont-bell-notifi">
+                                    <i class="fa-solid fa-bell"></i>
+                                </div>
+                                <div class="badge-container">
+    
+                                </div>
+                            </div>
+                            <div class="profile-container">
+                                <img src="./images/boy1.png" alt="profile_picture">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="bottom-conts-container">
+                        <div class="upper-part-container">
+                            <div class="left-part-container">
+                                <div class="xyz-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-table-columns"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Board</p>
+                                    </div>
+                                </div>
+                                <div class="xyz-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-table-list"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Table</p>
+                                    </div>
+                                </div>
+                                <div class="xyz-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-calendar"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Calendar</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-part-container">
+                                <div class="xyz-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-filter"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Filter</p>
+                                    </div>
+                                </div>
+                                <div class="xyz-container">
+                                    <div class="icons-container">
+                                        <i class="fa-solid fa-arrow-up-wide-short"></i>
+                                    </div>
+                                    <div class="words-container">
+                                        <p>Sort</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lower-part-container">
+                            <div class="inner-left-container">
+                                <div class="headings-icon-container">
+                                    <div class="headings-container">
+                                        <p>To - Do</p>
+                                    </div>
+                                    <div class="plus-icon-container">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="card-container">
+                                    <div class="design-icon-container">
+                                        <div class="design-container">
+                                            <p>DESIGN</p>
+                                        </div>
+                                        <div class="three-dots-container">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                    <div class="img-container-main">
+                                        <img src="./images/world.png" alt="dashboard image">
+                                    </div>
+                                    <div class="customer-journey-kidz-container">
+                                        <div class="customer-word-container">
+                                            <p>Customer Journey Mapping</p>
+                                        </div>
+                                        <div class="kidz-container">
+                                            <p>Kidszone</p>
+                                        </div>
+                                    </div>
+                                    <div class="medium-date-container">
+                                        <div class="medium-list-container">
+                                            <div class="icons-container changed-icon-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="words-container changed-word-container">
+                                                <p>Medium</p>
+                                            </div>
+                                        </div>
+                                        <div class="medium-list-container october-container">
+                                            <div class="icons-container october-icon-container">
+                                                <i class="fa-solid fa-clock"></i>
+                                            </div>
+                                            <div class="words-container october-word-container">
+                                                <p>25 October</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatars-numbers-icons-container">
+                                        <div class="avatar-stacked-container">
+                                            <div class="user-container">
+                                                <img src="./images/boyy.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boyy2.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boy3.png" alt="users_picture">
+                                            </div>
+                                        </div>
+                                        <div class="numbers-icons-container">
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>16</p>
+                                                </div>
+                                            </div>
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-comment-dots"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>21</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-container">
+                                    <div class="design-icon-container">
+                                        <div class="design-container color-one">
+                                            <p>DESIGN</p>
+                                        </div>
+                                        <div class="three-dots-container">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="img-container-main">
+                                        <img src="./images/world.png" alt="dashboard image">
+                                    </div> -->
+                                    <div class="customer-journey-kidz-container">
+                                        <div class="customer-word-container">
+                                            <p>UI Component Modification</p>
+                                        </div>
+                                        <div class="kidz-container">
+                                            <p>Bookly</p>
+                                        </div>
+                                    </div>
+                                    <div class="kidz-container">
+                                        <p>Micro Interactions, Loding and Progress.</p>
+                                    </div>
+                                    <div class="medium-date-container">
+                                        <div class="medium-list-container">
+                                            <div class="icons-container changed-icon-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="words-container changed-word-container">
+                                                <p>Medium</p>
+                                            </div>
+                                        </div>
+                                        <div class="medium-list-container october-container">
+                                            <div class="icons-container october-icon-container">
+                                                <i class="fa-solid fa-clock"></i>
+                                            </div>
+                                            <div class="words-container october-word-container">
+                                                <p>28 October</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatars-numbers-icons-container">
+                                        <div class="avatar-stacked-container">
+                                            <div class="user-container">
+                                                <img src="./images/girl2.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boyy2.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boy1.png" alt="users_picture">
+                                            </div>
+                                        </div>
+                                        <div class="numbers-icons-container">
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>03</p>
+                                                </div>
+                                            </div>
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-comment-dots"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>32</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="inner-left-container">
+                                <div class="headings-icon-container color-header">
+                                    <div class="headings-container">
+                                        <p>In Progress</p>
+                                    </div>
+                                    <div class="plus-icon-container">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="card-container">
+                                    <div class="design-icon-container">
+                                        <div class="design-container color-two">
+                                            <p>DEVELOPMENT</p>
+                                        </div>
+                                        <div class="three-dots-container">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="img-container-main">
+                                        <img src="./images/world.png" alt="dashboard image">
+                                    </div> -->
+                                    <div class="customer-journey-kidz-container">
+                                        <div class="customer-word-container">
+                                            <p>Database Customization</p>
+                                        </div>
+                                        <div class="kidz-container">
+                                            <p>Uber</p>
+                                        </div>
+                                    </div>
+                                    <div class="kidz-container">
+                                        <p>Customizing the database for Uber's internal system, focusing on micro-interactions.</p>
+                                    </div>
+                                    <div class="medium-date-container">
+                                        <div class="medium-list-container">
+                                            <div class="icons-container changed-icon-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="words-container changed-word-container">
+                                                <p>Medium</p>
+                                            </div>
+                                        </div>
+                                        <div class="medium-list-container october-container">
+                                            <div class="icons-container october-icon-container">
+                                                <i class="fa-solid fa-clock"></i>
+                                            </div>
+                                            <div class="words-container october-word-container">
+                                                <p>21 October</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatars-numbers-icons-container">
+                                        <div class="avatar-stacked-container">
+                                            <div class="user-container">
+                                                <img src="./images/boyy.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boyy2.png" alt="users_picture">
+                                            </div>
+                                            <!-- <div class="user-container">
+                                                <img src="./images/boy3.png" alt="users_picture">
+                                            </div> -->
+                                        </div>
+                                        <div class="numbers-icons-container">
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>10</p>
+                                                </div>
+                                            </div>
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-comment-dots"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>06</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-container">
+                                    <div class="design-icon-container">
+                                        <div class="design-container color-three">
+                                            <p>3D MODELING</p>
+                                        </div>
+                                        <div class="three-dots-container">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="img-container-main">
+                                        <img src="./images/world.png" alt="dashboard image">
+                                    </div> -->
+                                    <div class="customer-journey-kidz-container">
+                                        <div class="customer-word-container">
+                                            <p>Fix Interior Planning</p>
+                                        </div>
+                                        <div class="kidz-container">
+                                            <p>Hotel Nice</p>
+                                        </div>
+                                    </div>
+                                    <div class="kidz-container">
+                                        <p>Addressing layout and functional issues in the 3D modeling of interior spaces</p>
+                                    </div>
+                                    <div class="medium-date-container">
+                                        <div class="medium-list-low-container">
+                                            <div class="icons-container changed-icon-color-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="words-container changed-color-container">
+                                                <p>Low</p>
+                                            </div>
+                                        </div>
+                                        <div class="medium-list-container october-container">
+                                            <div class="icons-container october-icon-container">
+                                                <i class="fa-solid fa-clock"></i>
+                                            </div>
+                                            <div class="words-container october-word-container">
+                                                <p>13 October</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatars-numbers-icons-container">
+                                        <div class="avatar-stacked-container">
+                                            <div class="user-container">
+                                                <img src="./images/boy3.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boyy2.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boy1.png" alt="users_picture">
+                                            </div>
+                                        </div>
+                                        <div class="numbers-icons-container">
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>13</p>
+                                                </div>
+                                            </div>
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-comment-dots"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>09</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="inner-left-container">
+                                <div class="headings-icon-container color-headerss">
+                                    <div class="headings-container">
+                                        <p>Done</p>
+                                    </div>
+                                    <div class="plus-icon-container">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+                                </div>
+                                <div class="card-container">
+                                    <div class="design-icon-container">
+                                        <div class="design-container">
+                                            <p>DESIGN</p>
+                                        </div>
+                                        <div class="three-dots-container">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="img-container-main">
+                                        <img src="./images/world.png" alt="dashboard image">
+                                    </div> -->
+                                    <div class="customer-journey-kidz-container">
+                                        <div class="customer-word-container">
+                                            <p>Redesign WordPress Website</p>
+                                        </div>
+                                        <div class="kidz-container">
+                                            <p>Design Lab</p>
+                                        </div>
+                                    </div>
+                                    <div class="kidz-container">
+                                        <p>Redesigning the website for Design Lab to enhance usability and visual appeal.</p>
+                                    </div>
+                                    <div class="medium-date-container">
+                                        <div class="medium-list-high-container">
+                                            <div class="icons-container changed-icon-colorr-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="words-container changed-word-colorr-container">
+                                                <p>High</p>
+                                            </div>
+                                        </div>
+                                        <div class="medium-list-container october-container">
+                                            <div class="icons-container october-icon-container">
+                                                <i class="fa-solid fa-clock"></i>
+                                            </div>
+                                            <div class="words-container october-word-container">
+                                                <p>17 October</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatars-numbers-icons-container">
+                                        <div class="avatar-stacked-container">
+                                            <div class="user-container">
+                                                <img src="./images/boyy.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boyy2.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boy3.png" alt="users_picture">
+                                            </div>
+                                        </div>
+                                        <div class="numbers-icons-container">
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>02</p>
+                                                </div>
+                                            </div>
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-comment-dots"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>29</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-container">
+                                    <div class="design-icon-container">
+                                        <div class="design-container color-four">
+                                            <p>MARKETING</p>
+                                        </div>
+                                        <div class="three-dots-container">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="img-container-main">
+                                        <img src="./images/world.png" alt="dashboard image">
+                                    </div> -->
+                                    <div class="customer-journey-kidz-container">
+                                        <div class="customer-word-container">
+                                            <p>Facebook Ads Campaign</p>
+                                        </div>
+                                        <div class="kidz-container">
+                                            <p>Plantify</p>
+                                        </div>
+                                    </div>
+                                    <div class="medium-date-container">
+                                        <div class="medium-list-container">
+                                            <div class="icons-container changed-icon-container">
+                                                <i class="fa-solid fa-flag"></i>
+                                            </div>
+                                            <div class="words-container changed-word-container">
+                                                <p>Medium</p>
+                                            </div>
+                                        </div>
+                                        <div class="medium-list-container october-container">
+                                            <div class="icons-container october-icon-container">
+                                                <i class="fa-solid fa-clock"></i>
+                                            </div>
+                                            <div class="words-container october-word-container">
+                                                <p>20 October</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="avatars-numbers-icons-container">
+                                        <div class="avatar-stacked-container">
+                                            <div class="user-container">
+                                                <img src="./images/boy3.png" alt="users_picture">
+                                            </div>
+                                            <div class="user-container">
+                                                <img src="./images/boyy2.png" alt="users_picture">
+                                            </div>
+                                            <!-- <div class="user-container">
+                                                <img src="./images/boy1.png" alt="users_picture">
+                                            </div> -->
+                                        </div>
+                                        <div class="numbers-icons-container">
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>03</p>
+                                                </div>
+                                            </div>
+                                            <div class="links-container">
+                                                <div class="icons-container october-icon-container">
+                                                    <i class="fa-solid fa-comment-dots"></i>
+                                                </div>
+                                                <div class="words-container october-word-container">
+                                                    <p>17</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
